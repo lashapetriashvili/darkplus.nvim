@@ -312,8 +312,8 @@ theme.set_highlights = function()
 
   -- NvimTree
   hl(0, "NvimTreeFolderIcon", { link = 'Directory' })
-  hl(0, "NvimTreeIndentMarker", { fg = c.context, bg = 'NONE' })
-  hl(0, "NvimTreeNormal", { fg = "#345123", bg = 'NONE' })
+  hl(0, "NvimTreeIndentMarker", { fg = '#123123', bg = 'NONE' })
+  hl(0, "NvimTreeNormal", { fg = 'NONE', bg = 'NONE' })
   hl(0, "NvimTreeVertSplit", { fg = '#3E3E3E', bg = 'NONE' })
   hl(0, "NvimTreeWinSeparator", { fg = '#3E3E3E', bg = 'NONE' })
   hl(0, "NvimTreeFolderName", { link = 'Directory' })
