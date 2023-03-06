@@ -1,7 +1,7 @@
 local colors = {
   fg = "#D4D4D4",
-  --[[ bg = "#1E1E1E", ]]
-  bg = "NONE",
+  bg = "#1E1E1E",
+  --[[ bg = "NONE", ]]
   alt_fg = "#a4a4a4",
   --[[ alt_bg = "#252525", ]]
   alt_bg = "NONE",
