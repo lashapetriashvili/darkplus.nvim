@@ -341,7 +341,7 @@ theme.set_highlights = function()
   hl(0, "LirEmptyDirText", { fg = c.gray, bg = 'NONE', italic = true, })
 
   -- Buffer
-  hl(0, "BufferCurrent", { fg = "NONE", bg = "NONE" })
+  hl(0, "BufferCurrent", { fg = c.fg, bg = c.bg })
   hl(0, "BufferCurrentIndex", { fg = c.fg, bg = c.bg })
   hl(0, "BufferCurrentMod", { fg = c.info, bg = c.bg })
   hl(0, "BufferCurrentSign", { fg = c.hint, bg = c.bg })
